@@ -100,9 +100,7 @@ html{
                  </div>
              </div>
             @endforeach
-
               </div>
-        
             <!-- Artist Card --> 
         </div>
                 <button class="w-full px-4 py-2 mt-[70px] bg-[#405060] text-white rounded hover:bg-[#7b7f5d] transition delay-75 ease-in-out">Inquire Now</button>
@@ -134,14 +132,10 @@ style="background-image: url('/images/bg-1.jpg');">
     <h2 class="text-6xl text-center " style="font-family: 'Megrim', cursive;">Our Works</h2>
     <p class=" font-bold text-center py-10">In your Memories, Wear your Stories</p>
     <div class="carousel flex justify-center space-x-4">
-
         <!-- Add carousel logic -->
         <div class="slide-container swiper ">
             <div class="slide-content">
               <div class="card-wrapper swiper-wrapper ">
-                
-               
-
                <div class="card swiper-slide grayscale hover:grayscale-0 ]">
                     <div class="card-content">
                       <div class="card-content">
@@ -174,71 +168,11 @@ style="background-image: url('/images/bg-1.jpg');">
                         </div>
                     </div>
                   </div>
-            
-                
-                
-
-              
             </div>
             <div class="swiper-button-next swiper-navBtn"></div>
             <div class="swiper-button-prev swiper-navBtn"></div>
             <div class="swiper-pagination"></div>
           </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- {{-- <div class="container mx-auto py-8">
-    <div x-data="{ activeSlide: 0, slides: ['artist1.png', 'artist2.png', 'artist3.png'] }" class="relative w-full h-80 mx-auto overflow-hidden rounded-lg shadow-lg">
-        <!-- Slides -->
-        <div class="relative">
-            <template x-for="(slide, index) in slides" :key="index">
-                <div x-show="activeSlide === index" class="absolute inset-0 transition-opacity duration-700 ease-in-out" style="opacity: 1">
-                    <img :src="`/images/${slide}`" alt="" class="w-full h-full object-cover">
-                    <img src="/images/artist1.png" alt="Test Image" class="w-full h-72 object-cover rounded-lg">
-                </div>
-            </template>
-        </div>
-
-        
-
-        <!-- Prev Button -->
-        <button @click="activeSlide = activeSlide === 0 ? slides.length - 1 : activeSlide - 1" class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full shadow-md hover:bg-opacity-75">
-            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-            </svg>
-        </button>
-
-        <!-- Next Button -->
-        <button @click="activeSlide = (activeSlide + 1) % slides.length" class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full shadow-md hover:bg-opacity-75">
-            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-            </svg>
-        </button>
-
-        <!-- Dots -->
-      
-    </div>
-</div> --}}
-
-
     </div>
 </section>
 
